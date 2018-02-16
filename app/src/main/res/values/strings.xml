@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ITS</string>
+    <string name="ITS">Institute of Technology Sligo</string>
+    <string name="button_text">Our Website</string>
+    <string name="address">IT Sligo address</string>
 </resources>
