@@ -2,5 +2,6 @@
     <string name="app_name">ITS</string>
     <string name="ITS">Institute of Technology Sligo</string>
     <string name="button_website">Our website</string>
-    <string name="address">IT Sligo address</string>
+    <string name="details">Institute of Technology Sligo is a state-funded third-level educational institution situated in the town of Sligo, Ireland. The Institute has three Schools and nine Departments.</string>
+    <string name="address">Address: Ash Ln, Bellanode, Sligo, Ireland</string>
 </resources>
