@@ -20,7 +20,6 @@
             android:gravity="center"
             android:padding="@dimen/title_padding"
             android:text="@string/ITS"
-            android:textColor="#616161"
             android:textSize="@dimen/text_size" />
 
         <!--Logo image-->
@@ -34,14 +33,14 @@
 
         <!--Website button-->
         <Button
-            android:id="@+id/button_so"
+            android:id="@+id/button_website"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/button_margin"
             android:layout_marginRight="@dimen/button_margin"
             android:autoLink="web"
             android:clickable="true"
-            android:cursorVisible="true"
+            android:focusable="true"
             android:linksClickable="true"
             android:onClick="goTo"
             android:padding="@dimen/button_padding"
@@ -51,10 +50,8 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-medium"
             android:padding="@dimen/title_padding"
             android:text="@string/details"
-            android:textColor="#616161"
             android:textSize="@dimen/text_size" />
 
         <!--Address view-->
@@ -65,7 +62,6 @@
             android:gravity="center"
             android:padding="@dimen/title_padding"
             android:text="@string/address"
-            android:textColor="#000000"
             android:textSize="@dimen/text_size" />
 
     </LinearLayout>
