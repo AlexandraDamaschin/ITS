@@ -27,7 +27,7 @@
         <ImageView
             android:id="@+id/logo"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="@dimen/logo_height"
             android:layout_marginTop="@dimen/title_margin"
             android:layout_weight="1"
             android:src="@drawable/itsligo_logo" />
@@ -57,38 +57,53 @@
             android:text="@string/details"
             android:textSize="@dimen/text_size" />
 
-        <!--Address view-->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-light"
-            android:gravity="center"
-            android:padding="@dimen/title_padding"
-            android:text="@string/address"
-            android:textSize="@dimen/text_size" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!--Address view-->
+            <ImageView
+                android:id="@+id/adress_icon"
+                android:layout_width="30dp"
+                android:layout_height="@dimen/icon_size"
+                android:layout_alignLeft="@+id/email_address"
+                android:layout_marginLeft="@dimen/address_margin"
+                android:layout_weight="1"
+                android:src="@drawable/address_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:padding="@dimen/title_padding"
+                android:text="@string/address"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
+            <!--email address-->
             <ImageView
                 android:id="@+id/email_icon"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="15dp"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
                 android:layout_alignLeft="@+id/email_address"
+                android:layout_marginLeft="@dimen/email_marginLeft"
+                android:layout_marginTop="@dimen/email_marginTop"
                 android:layout_weight="1"
                 android:src="@drawable/email_icon" />
 
             <TextView
-                android:id="@+id/email_address"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:padding="@dimen/title_padding"
                 android:text="@string/email"
-                android:textSize="@dimen/text_size"
-                android:textStyle="normal" />
+                android:textSize="@dimen/text_size" />
         </LinearLayout>
-
     </LinearLayout>
 </ScrollView>

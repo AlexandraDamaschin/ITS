@@ -5,4 +5,9 @@
     <dimen name="button_margin">24dp</dimen>
     <dimen name="button_padding">8dp</dimen>
     <dimen name="title_margin">24dp</dimen>
+    <dimen name="logo_height">100dp</dimen>
+    <dimen name="icon_size">30dp</dimen>
+    <dimen name="address_margin">15dp</dimen>
+    <dimen name="email_marginLeft">15dp</dimen>
+    <dimen name="email_marginTop">10dp</dimen>
 </resources>
